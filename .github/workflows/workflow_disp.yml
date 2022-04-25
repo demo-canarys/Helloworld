@@ -43,4 +43,4 @@ jobs:
       - run: |
           echo ${{github.event.inputs.Priority}}
           echo ${{github.event.inputs.issuename}}
-          echo ${{github.event.inputs.environment}
+          echo ${{github.event.inputs.environment}}
