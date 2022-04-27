@@ -8,4 +8,4 @@ on:
   
 jobs:
   build:
-    uses: demo-canarys/.github/.github/workflows/template-1.yml@main
+    uses: demo-canarys/template-repo/.github/workflows/main.yml@main
