@@ -7,6 +7,4 @@ on:
     branches: [ master ]
 jobs:
   build:
-    uses: demo-canarys/.github/blob/main/workflow-templates/template-1.yml
-    
-
+    uses: demo-canarys/.github/.github/workflows/template-1.yml@main
