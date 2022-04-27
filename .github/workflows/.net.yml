@@ -8,9 +8,5 @@ on:
   
 jobs:
   build:
+    
     uses: demo-canarys/template-repo/.github/workflows/main.yml@main
-  job2:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - run: echo ${{ needs.build }
